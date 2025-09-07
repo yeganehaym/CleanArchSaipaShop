@@ -1,0 +1,6 @@
+@SaipaShop.EndPoints.Api_HostAddress = http://localhost:5005
+
+GET {{SaipaShop.EndPoints.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

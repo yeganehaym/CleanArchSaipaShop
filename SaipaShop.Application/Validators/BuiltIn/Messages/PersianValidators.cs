@@ -1,0 +1,46 @@
+namespace SaipaShop.Application.Validators.BuiltIn.Messages;
+
+public class PersianValidators
+{
+  public static string GetTranslation(string key) => key switch
+{
+    ValidatorKeys.EmailValidator => "'{PropertyName}' معتبر نمیباشد.",
+    ValidatorKeys.GreaterThanOrEqualValidator => "'{PropertyName}' باید بزرگتر یا مساوی  '{ComparisonValue}' باشد.",
+    ValidatorKeys.GreaterThanValidator => "'{PropertyName}' باید بزرگتر از  '{ComparisonValue}' باشد.",
+    ValidatorKeys.LengthValidator => "'{PropertyName}' باید بین  {MinLength} و {MaxLength} کاراکتر باشد. شما  {TotalLength} وارد نموده اید.",
+    ValidatorKeys.MinimumLengthValidator => "حداقل طول  '{PropertyName}' باید {MinLength} کاراکتر باشد. شما  {TotalLength} کاراکتر وارد کرده اید.",
+    ValidatorKeys.MaximumLengthValidator => "حداکثر طول  '{PropertyName}' باید  {MaxLength} کارکتر باشد و شما  {TotalLength} کارکتر وارد کرده اید.",
+    ValidatorKeys.LessThanOrEqualValidator => "'{PropertyName}' باید کمتر یا مساوی '{ComparisonValue}' باشد.",
+    ValidatorKeys.LessThanValidator => "'{PropertyName}' باید کمتر از '{ComparisonValue}' باشد.",
+    ValidatorKeys.NotEmptyValidator => "ورود '{PropertyName}' اجباری است.",
+    ValidatorKeys.NotEqualValidator => "'{PropertyName}' نباید برابر با  '{ComparisonValue}' باشد.",
+    ValidatorKeys.NotNullValidator => "ورود '{PropertyName}' اجباری است.",
+    ValidatorKeys.PredicateValidator => "شامل شرایط و قوانین گفته شده نیست '{PropertyName}'.",
+    ValidatorKeys.AsyncPredicateValidator => "شامل شرایط و قوانین گفته شده نیست '{PropertyName}'.",
+    ValidatorKeys.RegularExpressionValidator => "'{PropertyName}' در قالب صحیحی قرار ندارد.",
+    ValidatorKeys.EqualValidator => "'{PropertyName}' باید برابر با '{ComparisonValue}' باشد.",
+    ValidatorKeys.ExactLengthValidator => "'{PropertyName}' باید  {MaxLength} کاراکتر باشد. شما {TotalLength} کاراکتر وارد نموده اید.",
+    ValidatorKeys.InclusiveBetweenValidator => "'{PropertyName}' باید بین {From} و {To} باشد. شما مقدار {PropertyValue} وارد نموده اید.",
+    ValidatorKeys.ExclusiveBetweenValidator => "'{PropertyName}' باید بین {From} و {To} باشد. شما مقدار {PropertyValue} وارد نموده اید.",
+    ValidatorKeys.CreditCardValidator => "'{PropertyName}' شماره کارت معتبری نمیباشد.",
+    ValidatorKeys.ScalePrecisionValidator => "'{PropertyName}' must not be more than {ExpectedPrecision} digits in total, with allowance for {ExpectedScale} decimals. {Digits} digits and {ActualScale} decimals were found.",
+    ValidatorKeys.EmptyValidator => "'{PropertyName}' باید خالی رها گردد.",
+    ValidatorKeys.NullValidator => "'{PropertyName}' باید خالی رها گردد.",
+    ValidatorKeys.EnumValidator => "'{PropertyName}' شامل این مقدار '{PropertyValue}' نمی باشد.",
+    ValidatorKeys.Length_Simple => "'{PropertyName}' باید بین  {MinLength} و {MaxLength} کاراکتر باشد.",
+    ValidatorKeys.MinimumLength_Simple => "حداقل طول  '{PropertyName}' کاراکتر باشد {MinLength} باید  .",
+    ValidatorKeys.MaximumLength_Simple => "حداکثر طول  '{PropertyName}' کاراکتر باشد {MinLength} باید  .",
+    ValidatorKeys.ExactLength_Simple => "طول '{PropertyName}' باید {MaxLength} کاراکتر باشد.",
+    ValidatorKeys.InclusiveBetween_Simple => "'{PropertyName}' باید بین {From} و {To} باشد.",
+    ValidatorKeys.NotValid => "'{PropertyName}' معتبر نمیباشد.",
+    ValidatorKeys.MaybeEmpty => "'{PropertyName}' شامل هیچ گونه ورودی نمی باشد",
+    ValidatorKeys.NotValidMobile => "شماره همراه معتبر وارد نمایید",
+    ValidatorKeys.NotValidEmail => "ایمیل معتبر وارد نمایید",
+    ValidatorKeys.NotValidPhone => "شماره تلفنی معتبر وارد نمایید",
+    ValidatorKeys.InvalidDate => "تاریخ در فرمت صحیحی قرار ندارد",
+    ValidatorKeys.InvalidTime => "ساعت در فرمت صحیحی قرار ندارد",
+    ValidatorKeys.IsRequired => "ورود '{PropertyName}' اجباری است.",
+    ValidatorKeys.AtLeast => "حداقل یکی از  '{PropertyName}' را انتخاب نمایید.",
+    _ => null,
+};
+}

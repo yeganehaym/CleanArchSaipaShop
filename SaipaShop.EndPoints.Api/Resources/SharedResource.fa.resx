@@ -1,0 +1,87 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Hello" xml:space="preserve">
+        <value>سلام</value>
+    </data>
+    
+     <data name="NotEmptyValidator" xml:space="preserve">
+    <value>مقدار '{PropertyName}' الزامی است.</value>
+  </data>
+  <data name="NotNullValidator" xml:space="preserve">
+    <value>مقدار '{PropertyName}' نباید تهی باشد.</value>
+  </data>
+  <data name="EmailValidator" xml:space="preserve">
+    <value>مقدار '{PropertyName}' یک ایمیل معتبر نیست.</value>
+  </data>
+  <data name="EqualValidator" xml:space="preserve">
+    <value>مقدار '{PropertyName}' باید برابر با '{ComparisonValue}' باشد.</value>
+  </data>
+  <data name="ExactLengthValidator" xml:space="preserve">
+    <value>مقدار '{PropertyName}' باید دقیقاً {MaxLength} کاراکتر باشد.</value>
+  </data>
+  <data name="ExclusiveBetweenValidator" xml:space="preserve">
+    <value>مقدار '{PropertyName}' باید بین {From} و {To} باشد (غیرشامل).</value>
+  </data>
+  <data name="InclusiveBetweenValidator" xml:space="preserve">
+    <value>مقدار '{PropertyName}' باید بین {From} و {To} باشد.</value>
+  </data>
+  <data name="LengthValidator" xml:space="preserve">
+    <value>طول '{PropertyName}' باید بین {MinLength} تا {MaxLength} کاراکتر باشد. شما {TotalLength} کاراکتر وارد کرده‌اید.</value>
+  </data>
+  <data name="MaximumLengthValidator" xml:space="preserve">
+    <value>طول '{PropertyName}' باید حداکثر {MaxLength} کاراکتر باشد. شما {TotalLength} کاراکتر وارد کرده‌اید.</value>
+  </data>
+  <data name="MinimumLengthValidator" xml:space="preserve">
+    <value>طول '{PropertyName}' باید حداقل {MinLength} کاراکتر باشد. شما {TotalLength} کاراکتر وارد کرده‌اید.</value>
+  </data>
+  <data name="NotEqualValidator" xml:space="preserve">
+    <value>مقدار '{PropertyName}' نباید برابر با '{ComparisonValue}' باشد.</value>
+  </data>
+  <data name="RegularExpressionValidator" xml:space="preserve">
+    <value>مقدار '{PropertyName}' قالب درستی ندارد.</value>
+  </data>
+  <data name="ScalePrecisionValidator" xml:space="preserve">
+    <value>مقدار '{PropertyName}' نباید بیشتر از {ExpectedPrecision} رقم داشته باشد و حداکثر {ExpectedScale} رقم اعشار مجاز است. {Digits} رقم و {ActualScale} اعشار وارد شده است.</value>
+  </data>
+  <data name="EmptyValidator" xml:space="preserve">
+    <value>مقدار '{PropertyName}' باید خالی باشد.</value>
+  </data>
+  <data name="NullValidator" xml:space="preserve">
+    <value>مقدار '{PropertyName}' باید تهی باشد.</value>
+  </data>
+  <data name="EnumValidator" xml:space="preserve">
+    <value>مقدار '{PropertyName}' در لیست مجاز نیست: '{PropertyValue}'.</value>
+  </data>
+  <data name="CreditCardValidator" xml:space="preserve">
+    <value>مقدار '{PropertyName}' یک شماره کارت اعتباری معتبر نیست.</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>نام کاربری</value>
+  </data>
+  <data name="TestWithParamsError" xml:space="preserve">
+    <value>فیلد {0} دارای خطای شماره {1} بود</value>
+  </data>
+  <data name="IsRequired" xml:space="preserve">
+    <value>{0} اجباری است</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>آدرس ایمیل</value>
+  </data>
+  <data name="PersonnelCode" xml:space="preserve">
+    <value>کد پرسنلی</value>
+  </data>
+  <data name="Invalid" xml:space="preserve">
+    <value>{0} نامعتبر میباشد</value>
+  </data>
+</root>
