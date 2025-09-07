@@ -26,7 +26,7 @@ public static class DependencyInjection
             .AddAuditLogBehavior()
             .AddCachingBehavior()
             .AddBusinessService()
-            .AddFluentValidationConfiguration()
+            //.AddFluentValidationConfiguration()
             .ScanMapConfigurations(Assembly.GetExecutingAssembly())
             .AddValidatorsFromAssemblyContaining(typeof(LoginQuery))
             .AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(DependencyInjection).Assembly));

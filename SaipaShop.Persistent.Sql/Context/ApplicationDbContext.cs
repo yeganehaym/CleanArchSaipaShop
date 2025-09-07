@@ -4,6 +4,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
+using SaipaShop.Domain.Entities;
 
 namespace SaipaShop.Persistent.Sql.Context;
 
@@ -22,6 +23,7 @@ public class ApplicationDbContext:MyDbContextBase
     public DbSet<User> Users { get; set; }
     public DbSet<Role> Roles { get; set; }
     public DbSet<UserRole> UserRoles { get; set; }
+    public DbSet<Product> Products { get; set; }
     
     
     

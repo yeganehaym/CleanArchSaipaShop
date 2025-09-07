@@ -1,0 +1,39 @@
+@model AddProductViewModel
+
+
+@{
+    if (Model!=null && Model.Result != null && Model.Result.IsSuccess)
+    {
+        <div class="alert alert-success">Success</div>
+    }
+    else if(Model!=null && Model.Result != null && Model.Result.IsFailure)
+    {
+        <div class="alert alert-danger">Error</div>
+    }
+}
+<form method="post">
+    <div>
+        <label>Title</label>
+        <input type="text" class="form-control" asp-for="Command.Title"/>
+    </div>
+
+    <div>
+        <label>Description</label>
+        <input type="text" class="form-control" asp-for="Command.Description"/>
+    </div>
+
+
+    <div>
+        <label>Amount</label>
+        <input type="number" class="form-control" asp-for="Command.Amount"/>
+    </div>
+
+    <div>
+        <label>Qty</label>
+        <input type="text" class="form-control" asp-for="Command.Qty"/>
+    </div>
+
+    <div>
+       <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+</form>

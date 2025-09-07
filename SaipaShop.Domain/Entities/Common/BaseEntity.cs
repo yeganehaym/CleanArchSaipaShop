@@ -8,4 +8,9 @@ public class BaseEntity:DomainEntity,IBaseEntity,IBaseRemovedEntity
     public bool IsRemoved { get; set; }
     public DateTimeOffset CreationDate { get; set; }
     public DateTimeOffset? ModificationDate { get; set; }
+
+    public BaseEntity()
+    {
+        CreationDate=DateTimeOffset.Now;
+    }
 }

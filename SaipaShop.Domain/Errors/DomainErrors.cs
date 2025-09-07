@@ -11,6 +11,7 @@ public static class DomainErrors
         public static readonly Error MailValidationError = new Error(ErrorType.Validation, "Write Valid Email");
         public static readonly Error UserNotAccepted = new Error(ErrorType.Validation, "UserNotAccepted");
         public static readonly Error NoResultFound = new Error(ErrorType.Failure, "NoResultFound");
+        public static readonly Error AddedFailed = new Error(ErrorType.Failure, "AddedFailed");
 
     }
 }
